@@ -28,11 +28,15 @@
 
  <script>
      var arr = [config];
+     var partialsToLoad = config.partials.length + 1;
+
      var mainTemplate = getPartialsFromConfig(arr);
      var partials = getPartialsFromConfig(config.partials);
 
      var timerId = setInterval(function() {
-         if (!$.isEmptyObject(partials) && !$.isEmptyObject(mainTemplate)) {
+         /*if (!$.isEmptyObject(partials) && !$.isEmptyObject(mainTemplate)) {*/
+         console.log(partialsToLoad);
+         if (partialsToLoad == 0) {
              var html = Mustache.render(mainTemplate.branch, data, partials);
              $('#mainCont').html(html);
              clearInterval(timerId);

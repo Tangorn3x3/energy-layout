@@ -35,6 +35,7 @@ function getPartialsFromConfig(config) {
 
         $.get(curPath, function(template) {
             partialsObj[item.template] = $(template).filter('#'+item.template+'Tpl').html();
+            partialsToLoad--;
         }, "html");
     });
 
