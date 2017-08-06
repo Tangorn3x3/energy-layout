@@ -1,7 +1,3 @@
-/**
- * Created by Maxis on 05.08.2017.
- */
-
 var templateFolder = 'templates/',
     configFileName = '/config.js',
     templateExt = '.mustache';
