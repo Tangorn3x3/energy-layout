@@ -26,22 +26,13 @@
 <script type="text/javascript" src="templates/branch/data.js" ></script>
 <script type="text/javascript" src="templates/branch/config.js" ></script>
 
- <script>
-     var arr = [config];
-     var partialsToLoad = config.partials.length + 1;
+<script>
+    var partialsToLoad = config.partials.length + 1;
 
-     var mainTemplate = getPartialsFromConfig(arr);
-     var partials = getPartialsFromConfig(config.partials);
+    var mainTemplate = getPartialsFromConfig([config]);
+    var partials = getPartialsFromConfig(config.partials);
 
-     var timerId = setInterval(function() {
-         /*if (!$.isEmptyObject(partials) && !$.isEmptyObject(mainTemplate)) {*/
-         console.log(partialsToLoad);
-         if (partialsToLoad == 0) {
-             var html = Mustache.render(mainTemplate.branch, data, partials);
-             $('#mainCont').html(html);
-             clearInterval(timerId);
-         }
-     }, 100);
-  </script>
+    renderTemplate('branch');
+</script>
 
 </html>

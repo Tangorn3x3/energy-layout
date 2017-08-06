@@ -6,26 +6,6 @@ var templateFolder = 'templates/',
     configFileName = '/config.js',
     templateExt = '.mustache';
 
-/*Function for remote script ondemand loading */
-function importScript (script) {
-
-    $.getScript( script )
-        .done(function( data, textStatus ) {
-            console.log( 'File ' + script + ' has been loaded' );
-            return true;
-        })
-        .fail(function( jqxhr, settings, exception ) {
-            console.error( 'Error loading ' + script  );
-            return false;
-        });
-
-    return true;
-}
-
-function scriptsConfig (config) {
-
-}
-
 function getPartialsFromConfig(config) {
 
     var partialsObj = {};
@@ -42,25 +22,17 @@ function getPartialsFromConfig(config) {
     return partialsObj;
 }
 
-function getPartial(folder, name) {
+function renderTemplate (rootTemplate) {
+    var timerId = setInterval(function() {
+        if (partialsToLoad == 0) {
+            console.log('All Partials was loaded');
 
-    var curPath = templateFolder + folder + name + templateExt;
-    //var templateContent = '';
+            var html = Mustache.render(mainTemplate[rootTemplate], data, partials);
+            console.log('Partials was rendered');
 
-    /*$( "#tmpl" ).load( "templates/main/main.mustache", function() {
-        alert( "Load was performed." );
-    });*/
-
-    $.get(curPath, function(template) {
-        return $(template).filter('#'+name+'Tpl').html();
-        var a = 1;
-    }, "html");
-
-    //return templateContent;
-}
-
-function getConfig(dir) {
-    var confName = templateFolder + dir + configFileName;
-    return importScript(confName);
+            $('#mainCont').html(html);
+            clearInterval(timerId);
+        }
+    }, 100);
 }
 

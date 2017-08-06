@@ -26,17 +26,12 @@
 <script type="text/javascript" src="templates/main/config.js" ></script>
 
  <script>
-     var arr = [config];
-     var mainTemplate = getPartialsFromConfig(arr);
+     var partialsToLoad = config.partials.length + 1;
+
+     var mainTemplate = getPartialsFromConfig([config]);
      var partials = getPartialsFromConfig(config.partials);
 
-     var timerId = setInterval(function() {
-         if (!$.isEmptyObject(partials) && !$.isEmptyObject(mainTemplate)) {
-             var html = Mustache.render(mainTemplate.main, data, partials);
-             $('#mainCont').html(html);
-             clearInterval(timerId);
-         }
-     }, 100);
+     renderTemplate('main');
   </script>
 
 </html>
