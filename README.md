@@ -12,7 +12,13 @@
 Для компиляции LESS потребуется: 
   - установленный Node.js (https://nodejs.org/en/download/) 
   - плагин LESS ($ npm install -g less)
-  
+
+Для минификации CSS потребуется: 
+  - установленный Node.js (https://nodejs.org/en/download/) 
+  - плагин YUI Compressor (npm install -g yuicompressor)
+
+Удобнее всего, конечно, настроить File Watchers в WebStorm.
+
 # Содержимое проекта
 1. HTML-файлы (index.html и др.)
 2. Файлы-шаблоны для Mustache.js (*.mustache)
