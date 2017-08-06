@@ -40,7 +40,7 @@ var data =
                         },
                         {
                             "title": "Руководство",
-                            "link": "/branch.html"
+                            "link": "./branch.html"
                         }
                     ]
                 },
