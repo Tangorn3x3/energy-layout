@@ -1,0 +1,66 @@
+@import "vars";
+
+#branch .member {
+  margin-bottom: 40px;
+
+    .photo {
+      height: 190px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      @media (max-width: 768px) {
+        height: 160px;
+      }
+
+      img { width: 100%; }
+    }
+
+    .name {
+      color: @@text-color-link;
+      font-size: @text-bigger + 2;
+      margin-bottom: 5px;
+    }
+    .meeting-cont {
+      margin-top: 15px;
+      float: left;
+      width: 100%;
+
+      .title {
+        color: @@text-color-link;
+        padding: 5px 0;
+      }
+      .schedule {
+        border-top: 1px dotted @@text-color-link;
+
+        .period {
+          padding: 10px 0;
+          width: 50%;
+          float: left;
+          background-color: lighten(@color-section-grey, 12%);
+          text-align: center;
+        }
+        .time {
+          padding: 10px 0;
+          width: 50%;
+          float: left;
+          color: @@text-color-link;
+          text-align: center;
+          font-size: @text-bigger;
+        }
+      }
+    }
+
+    .enroll {
+      text-align: center;
+      margin-top: 5px;
+      float: left;
+      width: 100%;
+
+      a {
+        color: @@text-color-link-hov;
+        border-bottom: 1px dotted;
+
+        &:hover { color: @@text-color-link; }
+      }
+    }
+
+}

@@ -1,0 +1,182 @@
+#main-banner-section {
+  .responsive-bg();
+  background-image: url(../../images/banner.jpg);
+  min-height: 294px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .container>.row {
+    text-align: center;
+  }
+  .name {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .main {
+    font-size: @text-huge;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: @@ban-main;
+  }
+  .desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .link {
+    a {
+      .btn-light(lighten(@@ban-main, 5%));
+      font-size: @text-bigger;
+    }
+    a:hover {
+      .btn-light-hover(darken(@@ban-main, 30%), #fff);
+    }
+  }
+}
+
+#shortcut {
+  background-color: @color-grey-light;
+}
+
+#posts {
+  padding: 30px 0;
+
+  .posts-grid {
+    margin-bottom: 30px;}
+  .post-item {
+    margin-bottom: 20px;
+  }
+
+  .post-thumb {
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    a {
+      display: inline-block;
+      width: 100%;}
+    a img {
+      display: inline-block;
+      width: 100%;}
+  }
+
+  .post-publish {
+    margin-bottom: 5px;
+    text-align: right;
+
+    .title {color: #aba9a9;}
+  }
+
+  .post-title {
+    color: @@text-color-link;
+    font-size: @text-main + 4;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .post-desc {
+    font-size: @text-main - 1;
+  }
+
+  .more {
+    color: @@text-color-link;
+    text-align: right;
+    font-size: @text-main - 1;
+  }
+
+  .posts-actions {
+    text-align: center;
+  }
+  .all-news {
+    .btn-light(@@text-color-link);
+    font-size: @text-main;
+  }
+  .all-news:hover {
+    .btn-light-hover(@@text-color-link-hov, #fff);
+  }
+}
+
+#companies {
+  img {
+    width: 100%;}
+}
+
+#hotline {
+  color: @color-section-light;
+
+  .call-center {
+    text-align: center;
+    padding-top: 30px;
+
+    .phone {
+      img {
+        width: 64px;}
+      span {color: @@ban-main;
+        font-size: 48px;
+        position: relative;
+        top: 15px;
+        left: 10px;}
+    }
+    .name {
+      font-size: @text-main + 4;
+      color: @@text-color-link-hov;}
+    .title {
+      font-size: @text-main + 4;
+    }
+  }
+  .call-phones {
+    a {
+      color: #fff;
+      padding: 8px 0;
+      display: inline-block;
+    }
+    a:hover {color: @@text-color-link-hov;}
+  }
+}
+
+#lastmedia {
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .row {
+    float: left;
+    width: 100%;}
+  .show-lasts {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+
+    a {
+      font-size: @text-main;
+      color: @@text-color-link-hov;
+    }
+    a:hover {
+      color: @@text-color-link;
+    }
+  }
+  .last-photo-cont {
+    margin-bottom: 20px;}
+}
+.last-media-cont {
+  padding-left: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+
+  .last-pic {
+    float: left;
+    /*width: 20%;*/ /*margin-right: 20px;*/}
+  .last-text-block {
+    float: left;
+    /*width: 80%;*/
+  }
+  .last-title a {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+
+#events .all-cont {
+  text-align: center; }

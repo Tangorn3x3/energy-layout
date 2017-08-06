@@ -1,0 +1,33 @@
+<script id="lastmediaTpl" type="text/html">
+    <section id="lastmedia" >
+        <div class="container">
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="row section-title">
+                    {{lastmedia.lastvideo.title}}
+                    <span class="show-lasts"><a href="#" >Посмотреть все</a></span>
+                </div>
+                <div class="row last-videos">
+                    {{#lastmedia.lastvideo.items}}
+                           {{> postLast}}
+                    {{/lastmedia.lastvideo.items}}
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                <div class="row section-title">
+                    {{lastmedia.lastPhoto.title}}
+                    <span class="show-lasts"><a href="#" >Посмотреть все</a></span>
+                </div>
+                <div class="row">
+                    {{#lastmedia.lastPhoto.photos}}
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 last-photo-cont">
+                        <img src="{{.}}">
+                    </div>
+                    {{/lastmedia.lastPhoto.photos}}
+                </div>
+            </div>
+
+        </div>
+    </section>
+</script>

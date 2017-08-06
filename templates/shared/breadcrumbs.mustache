@@ -1,0 +1,15 @@
+<script id="breadcrumbsTpl" type="text/html">
+    <section id="breadcrumbs"  class="sec-pic">
+        <div class="container">
+            <div class="row name">{{breadcrumbs.title}}</div>
+            <div class="row path">
+                <ul>
+                    {{#breadcrumbs.path}}
+                        <li><a href="{{link}}">{{title}}</a></li>
+                    {{/breadcrumbs.path}}
+                    <li>{{breadcrumbs.title}}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</script>

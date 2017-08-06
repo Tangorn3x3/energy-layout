@@ -1,0 +1,21 @@
+<script id="hotlineTpl" type="text/html">
+    <section id="hotline" class="sec-pic">
+        <div class="container">
+            <!--<div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>-->
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 call-center">
+                <div class="title">{{hotline.callcenter.title}}</div>
+                <div class="name">{{hotline.callcenter.name}}</div>
+                <div class="phone">
+                    <img src="{{hotline.callcenter.pic}}">
+                    <span>{{hotline.callcenter.phone}}</span>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 call-phones">
+                {{#hotline.phones}}
+                   <div><a href="#">{{.}}</a></div>
+                {{/hotline.phones}}
+            </div>
+        </div>
+    </section>
+</script>

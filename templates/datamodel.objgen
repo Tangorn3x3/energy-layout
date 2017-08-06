@@ -1,0 +1,197 @@
+system
+  dataModel=http://objgen.com/json/models/VSM
+  imgPath=assets/img/
+  imagesPath=images/
+  homeLink=/
+header
+  appname=Национальный Энергохолдинг
+  applogo=logo.png
+  langRu=Рус
+  langKy=Кыр
+  searchPlaceholder=Найти на сайте
+navbar
+  items[0]
+    title=Компания
+    link=#
+    subitems[0]
+      title=Структура холдинга
+    subitems[1]
+      title=Энергокомпании
+      link=# 
+    subitems[2]
+      title=Устав о холдинге
+      link=#  
+    subitems[3]
+      title=Вакансии
+      link=#  
+    subitems[4]
+      title=Руководство
+      link=#         
+  items[1]
+    title=АКЦИОНЕРАМ И ИНВЕСТОРАМ
+    link=#
+    subitems[0]
+      title=Реализуемые проекты
+      link=#  
+    subitems[1]
+      title=Финансовые отчеты
+      link=#     
+  items[2]
+    title=НОРМАТИВНАЯ БАЗА
+    link=#
+    subitems[0]
+      title=Законы
+      link=#  
+    subitems[1]
+      title=Указы
+      link=#  
+    subitems[2]
+      title=Постановления
+      link=#  
+    subitems[3]
+      title=Программы и Стратегии
+      link=#  
+    subitems[4]
+      title=Распоряжения
+      link=#      
+  items[3]
+    title=ПРЕСС-ЦЕНТР
+    link=#
+    subitems[0]
+      title=Новости
+      link=#  
+    subitems[1]
+      title=Фотогалерея
+      link=#  
+    subitems[2]
+      title=Пресса о нас
+      link=#  
+    subitems[3]
+      title=Медиа мероприятия
+      link=#  
+    subitems[4]
+      title=Вопросы и ответы
+      link=#  
+  items[4]
+    title=ЗАКУПКИ
+    link=#
+    subitems[] =
+  items[5]
+    title=КОНТАКТЫ
+    link=#
+    subitems[0]
+      title=Контакты
+      link=#  
+    subitems[1]
+      title=Телефоны дежурных диспетчеров РЭС
+      link=#  
+    subitems[2]
+      title=Электронная приемная
+      link=#  
+banner
+  name=ОАО "Национальный энергохолдинг"
+  main=Опыт. Развитие. Иновации.
+  desc=Только вместе мы добьемся поставленных целей
+  link
+    name=О компании
+    href=#
+shortcuts
+  shorts[0]
+    name=ЭЛЕКТРОННАЯ ПРИЕМНАЯ
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+    pic=
+    link=#
+  shorts[1]
+    name=КАЛЕНДАРЬ СОБЫТИЙ
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+    pic=
+    link=#  
+  shorts[2]
+    name=LOREM IPSUM DOLOR
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+    pic=
+    link=#
+posts
+  moreTitle=Подробнее...
+  published=Опубликовано:
+  allNewsTitle=Все новости
+  postPrev[0]
+    thumb=images/u113.png
+    pubDate=6 июля 2017
+    title=Название новости, рекомендуемой длины не больше двух строк
+    link=#
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  postPrev[1]
+    thumb=images/u113.png
+    pubDate=6 июля 2017
+    title=Название новости, рекомендуемой длины не больше двух строк
+    link=#
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  postPrev[2]
+    thumb=images/u113.png
+    pubDate=6 июля 2017
+    title=Название новости, рекомендуемой длины не больше двух строк
+    link=#
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+companies
+  title=Энергокомпании
+  items[] = images/companies/sever.jpg, images/companies/teplo.jpg, images/companies/vostok.jpg
+hotline
+  callcenter
+    title=КРУГЛОСУТОЧНЫЙ КОЛЛ-ЦЕНТР
+    name=ОАO "СЕВЕР-ЭЛЕКТРО"
+    pic=assets/img/phone.png
+    phone=1209
+  phones[] = Телефоны дежурных диспетчеров РЭС  ОАО «Востокэлектро», Телефоны дежурных диспетчеров РЭС ОАО "Ошэлектро", Телефоны дежурных диспетчеров РЭС ОАО «Жалалабатэлектро», Номера дежурных телефонов ОАО «Бишкектеплосеть», Круглосуточные номера телефонов диспетчерских служб районов электросетей ОАО «Северэлектро»
+lastmedia
+  lastvideo
+    title=Последние видео
+    items[0]
+      title=Заголовок материала
+      pic=images/lasts/pic.png
+      desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+      link=#
+    items[1]
+      title=Заголовок материала
+      pic=images/lasts/pic.png
+      desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+      link=#
+  lastPhoto
+     title=Последние фото
+     photos[] = images/lasts/photopic.png, images/lasts/photopic.png,images/lasts/photopic.png,images/lasts/photopic.png, images/lasts/photopic.png, images/lasts/photopic.png
+events
+  title=Новости и события за 6 августа
+  events[0]
+    title=Заголовок материала
+    pic=images/lasts/pic2.png
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+    link=#
+  events[1]
+    title=Заголовок материала
+    pic=images/lasts/pic2.png
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+    link=#
+  events[2]
+    title=Заголовок материала
+    pic=images/lasts/pic2.png
+    desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+    link=#
+footer
+  contacts
+    title=Связаться с нами можно используя следующие данные:
+    contact[0]
+      pic=assets/img/u370.jpg
+      text=<strong>energyholding.kg<strong>@gmail.com
+    contact[1]
+      pic=assets/img/u372.jpg
+      text=+996 (312) <strong>56-18-22</strong><br>+996 (312) <strong>56-19-22</strong>
+    contact[2]
+      pic=assets/img/u374.jpg
+      text=720055, г. Бишкек, ул. Ахунбаева, 119
+  links
+    title=Быстрые ссылки
+    link[]=Новости, Вопросы и ответы, Тендеры, Контакты, Электронная приемная, Карта сайта
+  location
+    title=Как нас найти
+    link=https://yandex.ru/map-widget/v1/-/CBQOJZtf~A
+  copyright=© 2017 Национальный энергохолдинг

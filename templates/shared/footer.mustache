@@ -1,0 +1,54 @@
+<script id="footerTpl" type="text/html">
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 brand-cont">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 logo">
+                            <a href="/"><img class="" src="{{system.imgPath}}{{header.applogo}}"></a>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 name">
+                            <a href="/">{{header.appname}}</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-title">
+                       {{footer.contacts.title}}
+                    </div>
+                    {{#footer.contacts.contact}}
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-cont">
+                            <img src="{{pic}}" alt="">
+                            <span>{{{text}}}</span>
+                        </div>
+                    {{/footer.contacts.contact}}
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="footer-links">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-header">
+                        {{footer.links.title}}
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 links">
+                        <ul>
+                            {{#footer.links.link}}
+                                <li><a href="#">{{.}}</a></li>
+                            {{/footer.links.link}}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-header">
+                        {{footer.location.title}}
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <iframe id="map" src="{{footer.location.link}}"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                {{footer.copyright}}
+            </div>
+        </div>
+    </section>
+</script>

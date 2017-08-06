@@ -1,0 +1,16 @@
+<script id="postsTpl" type="text/html">
+        <section id="posts">
+            <div class="container">
+                <div class="row posts-grid">
+                    {{#posts.postPrev}}
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 post-item">
+                            {{> postPrev}}
+                        </div>
+                    {{/posts.postPrev}}
+                </div>
+                <div class="row posts-actions">
+                    <a class="all-news" href="#">Все новости</a>
+                </div>
+            </div>
+        </section>
+</script>

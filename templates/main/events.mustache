@@ -1,0 +1,25 @@
+<script id="eventsTpl" type="text/html">
+    <section id="events" class="sec-grey" >
+        <div class="container">
+
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+            </div>
+
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 ">
+                <div class="row section-title">
+                    {{events.title}}
+                </div>
+                <div class="row">
+                    {{#events.events}}
+                        {{> postLast}}
+                    {{/events.events}}
+                </div>
+                <div class="row all-cont">
+                    <a href="#" class="primary">Все новости и события</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</script>

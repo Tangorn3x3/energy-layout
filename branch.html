@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <meta http-equiv="cache-control" content="no-cache">
+
+      <title>Energy Branch</title>
+
+      <link rel="stylesheet" href="assets/stylesheet/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/stylesheet/style.css">
+  </head>
+  <body id="mainCont">
+  </body>
+
+<script type="text/javascript" src="assets/vendor/jquery-2.2.4.min.js" ></script>
+<script type="text/javascript" src="assets/vendor/bootstrap.min.js" ></script>
+
+<script type="text/javascript" src="assets/vendor/mustache.js" ></script>
+<script type="text/javascript" src="assets/js/javascript.js" ></script>
+
+<script type="text/javascript" src="templates/shared/data.js" ></script>
+
+<script type="text/javascript" src="templates/branch/data.js" ></script>
+<script type="text/javascript" src="templates/branch/config.js" ></script>
+
+ <script>
+     var arr = [config];
+     var mainTemplate = getPartialsFromConfig(arr);
+     var partials = getPartialsFromConfig(config.partials);
+
+     var timerId = setInterval(function() {
+         if (!$.isEmptyObject(partials) && !$.isEmptyObject(mainTemplate)) {
+             var html = Mustache.render(mainTemplate.branch, data, partials);
+             $('#mainCont').html(html);
+             clearInterval(timerId);
+         }
+     }, 100);
+  </script>
+
+</html>
