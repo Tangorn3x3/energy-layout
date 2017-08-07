@@ -71,7 +71,6 @@ var postData =
         "prev": "Предыдущая",
         "active": "1",
         "pages": [
-            "1",
             "2",
             "3",
             "4",

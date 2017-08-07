@@ -37,3 +37,7 @@ popularPosts
 sort
   title=Сортировка по дате:
   types[]=Новые в начале, Старые в начале
+pagination
+  next=
+  prev=
+  pages[]= 2, 3, 4, 5

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b86358-2341-47b5-b51a-9163a0c88505" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/inner.css" afterPath="$PROJECT_DIR$/assets/stylesheet/inner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/inner.less" afterPath="$PROJECT_DIR$/assets/stylesheet/inner.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/main.less" afterPath="$PROJECT_DIR$/assets/stylesheet/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.css" afterPath="$PROJECT_DIR$/assets/stylesheet/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.less" afterPath="$PROJECT_DIR$/assets/stylesheet/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.min.css" afterPath="$PROJECT_DIR$/assets/stylesheet/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/vars.less" afterPath="$PROJECT_DIR$/assets/stylesheet/vars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/shared/data.js" afterPath="$PROJECT_DIR$/templates/shared/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/posts/data.js" afterPath="$PROJECT_DIR$/templates/posts/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/posts/datamodel.objgen" afterPath="$PROJECT_DIR$/templates/posts/datamodel.objgen" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,11 +50,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="postLast.mustache" pinned="false" current-in-tab="true">
+          <file leaf-file-name="postLast.mustache" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/posts/postLast.mustache">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="153">
                   <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="datamodel.objgen" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/posts/datamodel.objgen">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -105,8 +107,8 @@
           <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                <state relative-caret-position="747">
+                  <caret line="76" column="15" lean-forward="true" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -257,7 +259,6 @@
         <option value="$PROJECT_DIR$/post-category.html" />
         <option value="$PROJECT_DIR$/templates/posts/config.js" />
         <option value="$PROJECT_DIR$/templates/shared/data.js" />
-        <option value="$PROJECT_DIR$/templates/posts/datamodel.objgen" />
         <option value="$PROJECT_DIR$/templates/posts/categoryContent.mustache" />
         <option value="$PROJECT_DIR$/assets/stylesheet/main.less" />
         <option value="$PROJECT_DIR$/assets/stylesheet/post.less" />
@@ -269,6 +270,7 @@
         <option value="$PROJECT_DIR$/assets/stylesheet/style.less" />
         <option value="$PROJECT_DIR$/templates/posts/postCategory.mustache" />
         <option value="$PROJECT_DIR$/templates/posts/config_category.js" />
+        <option value="$PROJECT_DIR$/templates/posts/datamodel.objgen" />
         <option value="$PROJECT_DIR$/templates/posts/data.js" />
       </list>
     </option>
@@ -348,24 +350,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="energy-layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="energy-layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,12 +578,12 @@
       <workItem from="1502075722601" duration="286000" />
       <workItem from="1502076117813" duration="415000" />
       <workItem from="1502076586466" duration="4107000" />
-      <workItem from="1502082639692" duration="8875000" />
+      <workItem from="1502082639692" duration="9492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85590000" />
+    <option name="totallyTimeSpent" value="86207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1868" height="1090" extended-state="7" />
@@ -831,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/datamodel.objgen">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheet/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1020,18 +997,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/posts/postLast.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="76" column="15" lean-forward="true" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/datamodel.objgen">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
