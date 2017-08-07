@@ -1,0 +1,30 @@
+<script id="postSidebarTpl" type="text/html">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bar-block">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title secondary"> Категории  новостей</div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bar-content">
+            <ul class="bar-list">
+                {{#categories}}
+                    <li><a href="{{link}}">{{name}}</a> </li>
+                {{/categories}}
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bar-block">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title secondary"> {{popularPosts.title}}</div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-filter">
+            <ul>
+                {{#popularPosts.periods}}
+                    <li><a href="#">{{.}}</a></li>
+                {{/popularPosts.periods}}
+            </ul>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bar-content">
+                {{#postPrev}}
+                    {{> postLastShort}}
+                {{/postPrev}}
+        </div>
+    </div>
+
+</script>

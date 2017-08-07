@@ -1,0 +1,46 @@
+<script id="postCategoryTpl" type="text/html">
+        {{> header}}
+        {{> nav}}
+    <section id = "post-category">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 post-category-content">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title">
+                        {{categoryTitle}}
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-filter">
+                        <strong>{{sort.title}}</strong>
+                        <ul>
+                            {{#sort.types}}
+                                <li><a href="#">{{.}}</a></li>
+                            {{/sort.types}}
+                        </ul>
+                    </div>
+                    {{> categoryContent}}
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">{{pagination.prev}}</a></li>
+                            <li class="active"><a href="#">{{pagination.active}}</a></li>
+                            {{#pagination.pages}}
+                                <li><a href="#">{{.}}</a></li>
+                            {{/pagination.pages}}
+                            <li><a href="#">{{pagination.next}}</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title secondary">
+                        {{otherNewsTitle}}
+                    </div>
+                    {{#postPrev}}
+                        {{> postLast}}
+                    {{/postPrev}}
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 post-sidebar">
+                    {{> postSidebar}}
+                </div>
+            </div>
+        </div>
+    </section>
+        {{> footer}}
+</script>

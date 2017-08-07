@@ -1,0 +1,39 @@
+moreTitle=Подробнее...
+published=Опубликовано:
+allNewsTitle=Все новости
+postPrev[0]
+  thumb=images/u113.png
+  pubDate=6 июля 2017
+  title=Название новости, рекомендуемой длины не больше двух строк
+  link=#
+  desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+postPrev[1]
+  thumb=images/u113.png
+  pubDate=6 июля 2017
+  title=Название новости, рекомендуемой длины не больше двух строк
+  link=#
+  desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+postPrev[2]
+  thumb=images/u113.png
+  pubDate=6 июля 2017
+  title=Название новости, рекомендуемой длины не больше двух строк
+  link=#
+  desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+categories[0]
+  name=Мероприятия
+  link=#
+categories[1]
+  name=Встречи и события
+  link=#
+categories[2]
+  name=Происшествия
+  link=#
+categories[3]
+  name=Профилактические работы
+  link=#
+popularPosts
+  title=Популярное
+  periods[]=За неделю, За месяц
+sort
+  title=Сортировка по дате:
+  types[]=Новые в начале, Старые в начале
