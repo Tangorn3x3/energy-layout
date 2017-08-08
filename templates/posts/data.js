@@ -4,17 +4,18 @@
 var postData =
 {
     "categoryTitle": "Все материалы категории Новости",
+    "otherNewsTitle": "Интересное в других категориях",
+    "otherInCategoryTitle": "Другие материалы в категории Новости",
     "moreTitle": "Подробнее...",
     "published": "Опубликовано:",
     "allNewsTitle": "Все новости",
-    "otherNewsTitle": "Интересное в других категориях",
     "postPrev": [
         {
             "thumb": "images/u113.png",
             "pic": "images/lasts/pic2.png",
             "pubDate": "6 июля 2017",
             "title": "Название новости, рекомендуемой длины не больше двух строк",
-            "link": "#",
+            "link": "./post-single.html",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
         },
         {
@@ -22,7 +23,7 @@ var postData =
             "pic": "images/lasts/pic2.png",
             "pubDate": "6 июля 2017",
             "title": "Название новости, рекомендуемой длины не больше двух строк",
-            "link": "#",
+            "link": "./post-single.html",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
         },
         {
@@ -30,7 +31,7 @@ var postData =
             "pic": "images/lasts/pic2.png",
             "pubDate": "6 июля 2017",
             "title": "Название новости, рекомендуемой длины не больше двух строк",
-            "link": "#",
+            "link": "./post-single.html",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
         }
     ],
@@ -76,7 +77,27 @@ var postData =
             "4",
             "5"
         ]
-    }
+    },
+    "singlePost": {
+        "title": "Название новости, рекомендуемой длины не больше двух строк",
+        "pic": "",
+        "pubDate": "6 июля 2017",
+        "content": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p> <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p> <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p> <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p> <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p> <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p>"
+    },
+    "shareButtons": [
+        {
+            "pic": "",
+            "link": ""
+        },
+        {
+            "pic": "",
+            "link": ""
+        },
+        {
+            "pic": "",
+            "link": ""
+        }
+    ]
 
 };
 

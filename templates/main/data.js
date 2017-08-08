@@ -44,21 +44,21 @@ var mainData =
                     "thumb": "images/u113.png",
                     "pubDate": "6 июля 2017",
                     "title": "Название новости, рекомендуемой длины не больше двух строк",
-                    "link": "#",
+                    "link": "./post-single.html",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
                 },
                 {
                     "thumb": "images/u113.png",
                     "pubDate": "6 июля 2017",
                     "title": "Название новости, рекомендуемой длины не больше двух строк",
-                    "link": "#",
+                    "link": "./post-single.html",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
                 },
                 {
                     "thumb": "images/u113.png",
                     "pubDate": "6 июля 2017",
                     "title": "Название новости, рекомендуемой длины не больше двух строк",
-                    "link": "#",
+                    "link": "./post-single.html",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
                 }
             ]
@@ -123,19 +123,19 @@ var mainData =
                     "title": "Заголовок материала",
                     "pic": "images/lasts/pic2.png",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod",
-                    "link": "#"
+                    "link": "./post-single.html"
                 },
                 {
                     "title": "Заголовок материала",
                     "pic": "images/lasts/pic2.png",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod",
-                    "link": "#"
+                    "link": "./post-single.html"
                 },
                 {
                     "title": "Заголовок материала",
                     "pic": "images/lasts/pic2.png",
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod",
-                    "link": "#"
+                    "link": "./post-single.html"
                 }
             ]
         }
