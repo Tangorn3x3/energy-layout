@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="72b86358-2341-47b5-b51a-9163a0c88505" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/inner.css" afterPath="$PROJECT_DIR$/assets/stylesheet/inner.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/inner.less" afterPath="$PROJECT_DIR$/assets/stylesheet/inner.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/inner.min.css" afterPath="$PROJECT_DIR$/assets/stylesheet/inner.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/main.less" afterPath="$PROJECT_DIR$/assets/stylesheet/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.css" afterPath="$PROJECT_DIR$/assets/stylesheet/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.less" afterPath="$PROJECT_DIR$/assets/stylesheet/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheet/style.min.css" afterPath="$PROJECT_DIR$/assets/stylesheet/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main/data.js" afterPath="$PROJECT_DIR$/templates/main/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main/posts.mustache" afterPath="$PROJECT_DIR$/templates/main/posts.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/posts/data.js" afterPath="$PROJECT_DIR$/templates/posts/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/posts/postLast.mustache" afterPath="$PROJECT_DIR$/templates/posts/postLast.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/posts/postSingle.mustache" afterPath="$PROJECT_DIR$/templates/posts/postSingle.mustache" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
             <entry file="file://$PROJECT_DIR$/templates/posts/categoryContent.mustache">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+                  <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -41,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/templates/posts/postPrev.mustache">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
-                  <caret line="7" column="10" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
+                  <caret line="7" column="10" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -50,8 +50,8 @@
           <file leaf-file-name="postSingle.mustache" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/posts/postSingle.mustache">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                <state relative-caret-position="357">
+                  <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
                   <folding />
                 </state>
               </provider>
@@ -71,7 +71,7 @@
             <entry file="file://$PROJECT_DIR$/templates/posts/postSidebar.mustache">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
-                  <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+                  <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -91,11 +91,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+                <state relative-caret-position="1186">
+                  <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -105,7 +105,7 @@
             <entry file="file://$PROJECT_DIR$/templates/main/data.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="782">
-                  <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+                  <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -115,17 +115,17 @@
             <entry file="file://$PROJECT_DIR$/assets/js/javascript.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
-                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                  <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/stylesheet/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+                <state relative-caret-position="55">
+                  <caret line="182" column="9" lean-forward="true" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
                   <folding>
                     <element signature="e#145#282#0" expanded="false" />
                     <element signature="e#319#445#0" expanded="false" />
@@ -174,8 +174,8 @@
           <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/stylesheet/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+                <state relative-caret-position="371">
+                  <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -184,8 +184,8 @@
           <file leaf-file-name="inner.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/stylesheet/inner.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+                <state relative-caret-position="548">
+                  <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -214,6 +214,7 @@
       <find>post-</find>
       <find>@color-sec-light</find>
       <find>main</find>
+      <find>pub</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,20 +260,20 @@
         <option value="$PROJECT_DIR$/templates/posts/postLastShort.mustache" />
         <option value="$PROJECT_DIR$/templates/shared/nav.mustache" />
         <option value="$PROJECT_DIR$/templates/posts/postSidebar.mustache" />
-        <option value="$PROJECT_DIR$/assets/stylesheet/inner.less" />
         <option value="$PROJECT_DIR$/templates/posts/postCategory.mustache" />
         <option value="$PROJECT_DIR$/templates/posts/config_category.js" />
         <option value="$PROJECT_DIR$/templates/posts/datamodel.objgen" />
         <option value="$PROJECT_DIR$/templates/posts/postLast.mustache" />
         <option value="$PROJECT_DIR$/templates/post-single.html" />
         <option value="$PROJECT_DIR$/templates/main/data.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheet/main.less" />
-        <option value="$PROJECT_DIR$/assets/stylesheet/style.less" />
         <option value="$PROJECT_DIR$/templates/main/posts.mustache" />
         <option value="$PROJECT_DIR$/post-single.html" />
         <option value="$PROJECT_DIR$/templates/posts/config_single.js" />
-        <option value="$PROJECT_DIR$/templates/posts/postSingle.mustache" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/main.less" />
         <option value="$PROJECT_DIR$/templates/posts/data.js" />
+        <option value="$PROJECT_DIR$/templates/posts/postSingle.mustache" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/style.less" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/inner.less" />
       </list>
     </option>
   </component>
@@ -307,6 +308,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,7 +441,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -574,14 +575,15 @@
       <workItem from="1502076586466" duration="4107000" />
       <workItem from="1502082639692" duration="10810000" />
       <workItem from="1502169672206" duration="6840000" />
+      <workItem from="1502244997724" duration="2783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94365000" />
+    <option name="totallyTimeSpent" value="97148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1868" height="1090" extended-state="1" />
+    <frame x="-5" y="-5" width="1868" height="1090" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13832077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -771,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="10" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +809,7 @@
     <entry file="file://$PROJECT_DIR$/templates/posts/postSidebar.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -825,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,14 +854,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -870,23 +868,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheet/inner.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheet/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -895,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,22 +884,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/posts/categoryContent.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/config_single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/postLast.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/postPrev.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1186">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/posts/postSingle.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/inner.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheet/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        <state relative-caret-position="55">
+          <caret line="182" column="9" lean-forward="true" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
           <folding>
             <element signature="e#145#282#0" expanded="false" />
             <element signature="e#319#445#0" expanded="false" />
@@ -960,54 +1001,6 @@
             <element signature="e#4493#4530#0" expanded="false" />
             <element signature="e#4737#5159#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/config_single.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/postLast.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/postPrev.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post-single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/postSingle.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/posts/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
