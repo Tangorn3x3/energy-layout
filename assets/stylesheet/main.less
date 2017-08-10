@@ -1,4 +1,24 @@
 @import "vars";
+
+.set-gradient (@color-start, @color-end) {
+  background: @color-start;
+  background: -moz-linear-gradient(left, @color-start 0%, @color-end 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, @color-start), color-stop(100%, @color-end));
+  background: -webkit-linear-gradient(left, @color-start 0%, @color-end 100%);
+  background: -o-linear-gradient(left, @color-start 0%, @color-end 100%);
+  background: -ms-linear-gradient(left, @color-start 0%, @color-end 100%);
+  background: linear-gradient(to right, @color-start 0%, @color-end 100%);
+}
+
+.set-bottom-grad (@color-start, @color-end) {
+  /*border-bottom: @size solid transparent;*/
+  background-image: linear-gradient(to right, @color-start 0%, @color-end 100%);
+  background-origin: border-box;
+  /*background-size: 100% 0px, 0px 100%, 100% @size, 0px 100%;*/
+  background-position: top left, top right, bottom right, bottom left;
+  background-repeat: no-repeat;
+  //padding-@type: @size;
+}
 #main-banner-section {
   .responsive-bg();
   background-image: url(../../images/banner.jpg);
@@ -39,6 +59,47 @@
 
 #shortcut {
   background-color: @color-grey-light;
+  padding: 0;
+  .item-cont {
+    .set-bottom-grad(rgba(2, 58, 104, 1), rgba(22, 116, 209, 1));
+    padding-bottom: 5px;
+
+  }
+  .content {
+    padding: 30px 15px;
+    .set-gradient(rgba(221,221,221,1), rgba(234,234,234,1));
+  }
+  .reception {
+    background-image: url(../../assets/img/reception.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    width: 100%;
+    height: 105px;
+  }
+
+  /*.name {
+    color: @@text-color-link; }*/
+
+  .desc {
+    font-size: @text-main - 2;
+    width: 80%;
+    color: @@text-color;
+  }
+
+  .link:hover {
+    .item-cont {
+      .set-bottom-grad(rgba(2, 58, 104, 1), rgba(22, 116, 209, 1));
+      padding-top: 5px;
+    }
+    .content {
+      padding: 30px 15px;
+      .set-gradient(rgba(2, 58, 104, 1), rgba(22, 116, 209, 1));
+    }
+  }
 }
 
 #posts {
