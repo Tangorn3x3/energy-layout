@@ -59,7 +59,6 @@ a:hover {text-decoration: none; color: @@text-color-link-hov}
   .btn-light-hover(@@text-color-link-hov, #fff);
 }
 
-
 section {
   padding: 30px 0 30px 0;
 }
@@ -76,6 +75,14 @@ section {
   color: @@text-color-link;
   font-size: @text-large;
   margin-bottom: 15px;
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.secondary {
+  color: lighten(@@text-color, 30%);
 }
 
 .brand-cont {
@@ -203,6 +210,9 @@ section {
   .brand-cont {
     .name {
       color: @text-color-footer;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
   }
 
@@ -214,7 +224,11 @@ section {
     margin-bottom: 20px;
   }
   #footer-links {
-    padding-left: 40px;}
+    padding-left: 40px;
+    @media (max-width: 768px) {
+      padding-left: 15px;
+    }
+  }
   .links {
     ul {
       list-style: none;
@@ -245,6 +259,9 @@ section {
   color: @text-color-footer;
   font-size: @text-bigger;
   padding: 20px 0;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 #breadcrumbs {
@@ -275,7 +292,4 @@ section {
 
 @import "main.less";
 @import "inner.less";
-
-.test-class {
-  color: yellow; }
 

@@ -90,7 +90,7 @@ var data =
                     "subitems": [
                         {
                             "title": "Новости",
-                            "link": "#"
+                            "link": "./post-category.html"
                         },
                         {
                             "title": "Фотогалерея",

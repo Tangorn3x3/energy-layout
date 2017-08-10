@@ -7,7 +7,7 @@
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="less" />
-      <option name="immediateSync" value="true" />
+      <option name="immediateSync" value="false" />
       <option name="name" value="Less" />
       <option name="output" value="$FileNameWithoutExtension$.css" />
       <option name="outputFilters">
@@ -26,7 +26,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />

@@ -59,3 +59,98 @@
 #branch .member .enroll a:hover {
   color: #03447B;
 }
+.bar-block {
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bar-block .section-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+.bar-block .bar-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+.bar-block .bar-list {
+  padding-left: 0;
+}
+.bar-block .bar-list li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.bar-block .bar-list li a {
+  padding: 5px 10px 5px 0;
+  display: inline-block;
+  width: 90%;
+  border-bottom: 1px solid #F2F2F2;
+}
+.bar-block .last-media-cont {
+  padding-left: 0;
+}
+.bar-block .last-media-cont .last-title a {
+  font-weight: normal;
+}
+.bar-block .last-text-block {
+  padding-left: 0;
+  padding-right: 0;
+}
+.post-filter {
+  text-align: right;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  padding-right: 0;
+}
+.post-filter ul {
+  display: inline-block;
+}
+.post-filter li {
+  display: inline-block;
+}
+.post-filter li a {
+  color: #808080;
+  padding: 3px 0px;
+  border-bottom: 1px dotted #808080;
+  margin-right: 10px;
+}
+.post-filter li a:hover {
+  color: #03447B;
+}
+.post-single-content {
+  margin-bottom: 25px;
+  float: left;
+}
+.post-single-content .post-filter {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.post-single-content .main-pic {
+  height: 205px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.post-single-content .main-pic img {
+  width: 100%;
+}
+.post-single-content .content {
+  margin-bottom: 20px;
+}
+.post-share {
+  float: left;
+}
+.post-share .title {
+  float: left;
+  margin-right: 10px;
+  color: #808080;
+}
+.post-share .items {
+  float: left;
+}
+.post-share .items .item {
+  float: left;
+  margin-right: 10px;
+}
+.post-share .items .item img {
+  width: 24px;
+}

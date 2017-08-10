@@ -11,7 +11,7 @@
   
 Для компиляции LESS потребуется: 
   - установленный Node.js (https://nodejs.org/en/download/) 
-  - плагин LESS ($ npm install -g less)
+  - плагин LESS (npm install -g less)
 
 Для минификации CSS потребуется: 
   - установленный Node.js (https://nodejs.org/en/download/) 

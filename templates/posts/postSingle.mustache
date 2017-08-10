@@ -1,0 +1,63 @@
+<script id="postSingleTpl" type="text/html">
+        {{> header}}
+        {{> nav}}
+    <section id = "post-category">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="post-single-content">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title">
+                            {{singlePost.title}}
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 post-filter" >
+                            <div class="post-share">
+                                <div class="title">Поделиться материалом</div>
+                                <div class="items">
+                                    {{#shareButtons}}
+                                        <span class="item"><a href="{{link}}"><img src="{{pic}}" alt=""></a></span>
+                                    {{/shareButtons}}
+
+                                </div>
+                            </div>
+                            <div class="post-publish">
+                                <span class="title">Опубликовано:</span>
+                                <span class="date">{{singlePost.pubDate}}</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-pic">
+                            <img src="{{singlePost.pic}}" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                            {{{singlePost.content}}}
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="post-share">
+                                <div class="title">Поделиться материалом</div>
+                                <div class="items">
+                                    {{#shareButtons}}
+                                        <span class="item"><a href="{{link}}"><img src="{{pic}}" alt=""></a></span>
+                                    {{/shareButtons}}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-title secondary">
+                        {{otherInCategoryTitle}}
+                    </div>
+
+                    {{#postPrev}}
+                        {{> postLast}}
+                    {{/postPrev}}
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 post-sidebar">
+                    {{> postSidebar}}
+                </div>
+            </div>
+        </div>
+    </section>
+        {{> footer}}
+</script>

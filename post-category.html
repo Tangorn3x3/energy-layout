@@ -7,17 +7,15 @@
       <meta name="viewport" content="width=device-width">
       <meta http-equiv="cache-control" content="no-cache">
 
-      <title>Energy Main</title>
+      <title>Post category</title>
+
       <link rel="stylesheet" href="assets/stylesheet/preloader.css">
       <link rel="stylesheet" href="assets/stylesheet/bootstrap.min.css">
-      <!--<link rel="stylesheet" href="assets/stylesheet/style.min.css">-->
-      <link rel="stylesheet" href="assets/stylesheet/style.css">
-
+      <link rel="stylesheet" href="assets/stylesheet/style.min.css">
   </head>
   <body id="mainCont">
-    <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
+     <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
   </body>
-
 
 <script type="text/javascript" src="assets/vendor/jquery-2.2.4.min.js" ></script>
 <script type="text/javascript" src="assets/vendor/bootstrap.min.js" ></script>
@@ -26,16 +24,17 @@
 <script type="text/javascript" src="assets/js/javascript.js" ></script>
 
 <script type="text/javascript" src="templates/shared/data.js" ></script>
-<script type="text/javascript" src="templates/main/data.js" ></script>
-<script type="text/javascript" src="templates/main/config.js" ></script>
 
- <script>
-     var partialsToLoad = config.partials.length + 1;
+<script type="text/javascript" src="templates/posts/data.js" ></script>
+<script type="text/javascript" src="templates/posts/config_category.js" ></script>
 
-     var mainTemplate = getPartialsFromConfig([config]);
-     var partials = getPartialsFromConfig(config.partials);
+<script>
+    var partialsToLoad = config.partials.length + 1;
 
-     renderTemplate('main');
-  </script>
+    var mainTemplate = getPartialsFromConfig([config]);
+    var partials = getPartialsFromConfig(config.partials);
+
+    renderTemplate('postCategory');
+</script>
 
 </html>
